@@ -11,7 +11,7 @@ locations:
     mappingDefinitions:
       "2":
         database: QA_DB
-        schema: PUBLIC
+        schema: QA_DB_SCHEMA
 macros: {}
 packages: {}
 projects: {}

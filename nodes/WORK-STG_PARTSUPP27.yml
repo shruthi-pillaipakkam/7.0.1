@@ -1,0 +1,97 @@
+steps:
+  STG_PARTSUPP27-9d8c7a96-3015-4ea9-b0cc-9ecff2c36341:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationName: WORK
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 486da780-b1ce-4c57-a516-ba726d6bb520
+              stepCounter: 9d8c7a96-3015-4ea9-b0cc-9ecff2c36341
+            dataType: NUMBER(38,0)
+            description: Foreign Key to P_PARTKEY
+            name: PS_PARTKEY
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 2765576a-f37d-4fd3-9f83-022b727f7122
+                    stepCounter: c56f550a-560f-4671-8525-d70be553ba05
+                transform: ""
+          - columnReference:
+              columnCounter: 86b8f584-b338-4f98-8989-742b3e35547f
+              stepCounter: 9d8c7a96-3015-4ea9-b0cc-9ecff2c36341
+            dataType: NUMBER(38,0)
+            description: Foreign Key to S_SUPPKEY
+            name: PS_SUPPKEY
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 084dbd80-434f-465c-82ff-114ddec38651
+                    stepCounter: c56f550a-560f-4671-8525-d70be553ba05
+                transform: ""
+          - columnReference:
+              columnCounter: 993272cb-15cf-4083-8606-963da11d781a
+              stepCounter: 9d8c7a96-3015-4ea9-b0cc-9ecff2c36341
+            dataType: NUMBER(38,0)
+            description: ""
+            name: PS_AVAILQTY
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: ede94ac5-929c-4c8b-a990-95e8144cb825
+                    stepCounter: c56f550a-560f-4671-8525-d70be553ba05
+                transform: ""
+          - columnReference:
+              columnCounter: 4073f674-26ae-4061-8a6c-07287544d579
+              stepCounter: 9d8c7a96-3015-4ea9-b0cc-9ecff2c36341
+            dataType: NUMBER(12,2)
+            description: ""
+            name: PS_SUPPLYCOST
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: a6e382a5-5ddc-42dd-9c0b-0893553ec2aa
+                    stepCounter: c56f550a-560f-4671-8525-d70be553ba05
+                transform: ""
+          - columnReference:
+              columnCounter: d83ffc0a-8798-413d-a5cb-7be351f5b53a
+              stepCounter: 9d8c7a96-3015-4ea9-b0cc-9ecff2c36341
+            dataType: VARCHAR(199)
+            description: ""
+            name: PS_COMMENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 452d11a9-79ea-467f-87f8-60031b1b5755
+                    stepCounter: c56f550a-560f-4671-8525-d70be553ba05
+                transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: WORK
+                nodeName: STG_PARTSUPP3
+            join:
+              joinCondition: FROM {{ ref('WORK', 'STG_PARTSUPP3') }} "STG_PARTSUPP3"
+            name: STG_PARTSUPP27
+            noLinkRefs: []
+      name: STG_PARTSUPP27
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: 9d8c7a96-3015-4ea9-b0cc-9ecff2c36341

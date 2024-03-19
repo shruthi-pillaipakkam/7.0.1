@@ -1,5 +1,5 @@
 steps:
-  STG_CUSTOMER-66f54caf-1fd8-4ae3-8cda-a34e47f2c0ba:
+  STG_CUSTOMER-165473de-0694-4fea-938b-e11c93b42628:
     operation:
       config:
         insertStrategy: INSERT
@@ -17,100 +17,100 @@ steps:
         appliedNodeTests: []
         columns:
           - columnReference:
-              columnCounter: ecfaedb2-2011-4e53-bdae-95a230048fa1
-              stepCounter: 66f54caf-1fd8-4ae3-8cda-a34e47f2c0ba
+              columnCounter: 704cddd5-1fa8-4b7d-98a2-71611beba8ed
+              stepCounter: 165473de-0694-4fea-938b-e11c93b42628
             dataType: NUMBER(38,0)
             description: SF*150,000 are populated
             name: C_CUSTKEY
             nullable: false
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: ba46559b-e9d5-46cd-a4c4-3c2be660c4b6
-                    stepCounter: 05429b5b-e7de-461e-aa09-c2c23bc1de22
+                  - columnCounter: dfc9fb1e-395a-4665-b060-56e665a5a192
+                    stepCounter: 919847cd-62da-400d-a2ec-00874cc0fa46
                 transform: ""
           - columnReference:
-              columnCounter: eabbe99e-c426-4654-a7f6-eca066d0fe3f
-              stepCounter: 66f54caf-1fd8-4ae3-8cda-a34e47f2c0ba
+              columnCounter: 1b6ea30f-d7f6-499b-99f1-7dae90030bca
+              stepCounter: 165473de-0694-4fea-938b-e11c93b42628
             dataType: VARCHAR(25)
             description: ""
             name: C_NAME
             nullable: false
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 05ccec9a-f6d0-43f9-ae60-0f71ff145c5c
-                    stepCounter: 05429b5b-e7de-461e-aa09-c2c23bc1de22
+                  - columnCounter: 8d2ad14b-300c-4a92-ad27-ecf1a9c162fc
+                    stepCounter: 919847cd-62da-400d-a2ec-00874cc0fa46
                 transform: ""
           - columnReference:
-              columnCounter: ba80c9c7-9d29-48d9-bedd-823c63d6355b
-              stepCounter: 66f54caf-1fd8-4ae3-8cda-a34e47f2c0ba
+              columnCounter: 4944c6c3-b049-4231-b096-2f016186d3d3
+              stepCounter: 165473de-0694-4fea-938b-e11c93b42628
             dataType: VARCHAR(40)
             description: ""
             name: C_ADDRESS
             nullable: false
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 77be3697-01f3-4024-a1fb-0b3033863552
-                    stepCounter: 05429b5b-e7de-461e-aa09-c2c23bc1de22
+                  - columnCounter: 8f3ec155-60eb-45da-b99a-0fff1e1ffc98
+                    stepCounter: 919847cd-62da-400d-a2ec-00874cc0fa46
                 transform: ""
           - columnReference:
-              columnCounter: 931f85e1-12b1-4105-b020-5fd36429ea8e
-              stepCounter: 66f54caf-1fd8-4ae3-8cda-a34e47f2c0ba
+              columnCounter: 971dc4ca-4005-4e0d-84c1-29a73cb3afa3
+              stepCounter: 165473de-0694-4fea-938b-e11c93b42628
             dataType: NUMBER(38,0)
             description: Foreign Key to N_NATIONKEY
             name: C_NATIONKEY
             nullable: false
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 305767ff-1477-4e8f-b6df-0337429b842c
-                    stepCounter: 05429b5b-e7de-461e-aa09-c2c23bc1de22
+                  - columnCounter: 8c2aceee-b2a3-4fa5-a724-ec433684e349
+                    stepCounter: 919847cd-62da-400d-a2ec-00874cc0fa46
                 transform: ""
           - columnReference:
-              columnCounter: b70eb98e-593e-4e51-91a6-278e48fe4a08
-              stepCounter: 66f54caf-1fd8-4ae3-8cda-a34e47f2c0ba
+              columnCounter: 8aa8d2f7-35b3-49a4-b6ad-0f6ee041d835
+              stepCounter: 165473de-0694-4fea-938b-e11c93b42628
             dataType: VARCHAR(15)
             description: ""
             name: C_PHONE
             nullable: false
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 15b78a40-5b16-4fce-ae00-9d8b01794a69
-                    stepCounter: 05429b5b-e7de-461e-aa09-c2c23bc1de22
+                  - columnCounter: c98454d6-0ea7-418c-97f3-6526f91eea1a
+                    stepCounter: 919847cd-62da-400d-a2ec-00874cc0fa46
                 transform: ""
           - columnReference:
-              columnCounter: 5028223b-ce07-4649-b3f0-58963e3b3cd4
-              stepCounter: 66f54caf-1fd8-4ae3-8cda-a34e47f2c0ba
+              columnCounter: ab04dade-bb04-4706-a78c-2adfd1211e6a
+              stepCounter: 165473de-0694-4fea-938b-e11c93b42628
             dataType: NUMBER(12,2)
             description: ""
             name: C_ACCTBAL
             nullable: false
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 9afaaa98-3dfd-4a31-92ea-213586bf967c
-                    stepCounter: 05429b5b-e7de-461e-aa09-c2c23bc1de22
+                  - columnCounter: f2b62413-439d-4106-889c-666c276a9436
+                    stepCounter: 919847cd-62da-400d-a2ec-00874cc0fa46
                 transform: ""
           - columnReference:
-              columnCounter: d5904da9-a100-4ed8-a93f-6962b3721d1e
-              stepCounter: 66f54caf-1fd8-4ae3-8cda-a34e47f2c0ba
+              columnCounter: 611ccaa3-ef81-4554-be85-736ef551ecde
+              stepCounter: 165473de-0694-4fea-938b-e11c93b42628
             dataType: VARCHAR(10)
             description: ""
             name: C_MKTSEGMENT
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 94e813a2-945a-44ed-91f5-65fc7ccba79b
-                    stepCounter: 05429b5b-e7de-461e-aa09-c2c23bc1de22
+                  - columnCounter: 532b3144-3a7a-4369-9eaf-3e0b0b63b674
+                    stepCounter: 919847cd-62da-400d-a2ec-00874cc0fa46
                 transform: ""
           - columnReference:
-              columnCounter: 7a5dfb0a-4c5e-45c4-ab72-0091984f116d
-              stepCounter: 66f54caf-1fd8-4ae3-8cda-a34e47f2c0ba
+              columnCounter: 151de8d6-7ec7-4f39-9868-9ad415ac9732
+              stepCounter: 165473de-0694-4fea-938b-e11c93b42628
             dataType: VARCHAR(117)
             description: ""
             name: C_COMMENT
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 330f0330-8a77-4f82-8745-cb855d425688
-                    stepCounter: 05429b5b-e7de-461e-aa09-c2c23bc1de22
+                  - columnCounter: 3df28e8b-a5b5-4f93-9693-ee803a28bfa0
+                    stepCounter: 919847cd-62da-400d-a2ec-00874cc0fa46
                 transform: ""
         cteString: ""
         enabledColumnTestIDs: []
@@ -130,4 +130,4 @@ steps:
       schema: ""
       sqlType: Stage
       type: sql
-    stepCounter: 66f54caf-1fd8-4ae3-8cda-a34e47f2c0ba
+    stepCounter: 165473de-0694-4fea-938b-e11c93b42628
