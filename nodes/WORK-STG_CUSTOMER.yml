@@ -10,7 +10,7 @@ operation:
     truncateBefore: true
   database: ""
   deployEnabled: true
-  description: ""
+  description: testdata
   isMultisource: false
   locationName: WORK
   materializationType: table
@@ -37,14 +37,14 @@ operation:
           stepCounter: 66f54caf-1fd8-4ae3-8cda-a34e47f2c0ba
         config: {}
         dataType: VARCHAR(25)
-        description: ""
+        description: desc
         name: C_NAME
         nullable: false
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: 05ccec9a-f6d0-43f9-ae60-0f71ff145c5c
                 stepCounter: 05429b5b-e7de-461e-aa09-c2c23bc1de22
-            transform: ""
+            transform: "1"
       - appliedColumnTests: {}
         columnReference:
           columnCounter: ba80c9c7-9d29-48d9-bedd-823c63d6355b
@@ -58,7 +58,7 @@ operation:
           - columnReferences:
               - columnCounter: 77be3697-01f3-4024-a1fb-0b3033863552
                 stepCounter: 05429b5b-e7de-461e-aa09-c2c23bc1de22
-            transform: ""
+            transform: "1"
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 931f85e1-12b1-4105-b020-5fd36429ea8e
@@ -72,7 +72,7 @@ operation:
           - columnReferences:
               - columnCounter: 305767ff-1477-4e8f-b6df-0337429b842c
                 stepCounter: 05429b5b-e7de-461e-aa09-c2c23bc1de22
-            transform: ""
+            transform: "1"
       - appliedColumnTests: {}
         columnReference:
           columnCounter: b70eb98e-593e-4e51-91a6-278e48fe4a08
